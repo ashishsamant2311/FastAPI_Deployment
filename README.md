@@ -78,7 +78,7 @@ The model is served through a FastAPI application. The API exposes endpoints for
 
     .
     ├── BankNote_Authentication.csv          # Dataset file
-    ├── train_model.py                       # Script to train and pickle the model
+    ├── train_model.ipynb                    # Script to train and pickle the model
     ├── random_forest_banknote_model.pkl     # Saved model file
-    ├── main.py                              # FastAPI application
-    └── README.md                            # Project documentation
+    ├── app.py                               # FastAPI application
+    └── BankNote.py                          # Pydantic Data Type Class
