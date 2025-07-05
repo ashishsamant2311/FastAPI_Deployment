@@ -65,3 +65,20 @@ The model is served through a FastAPI application. The API exposes endpoints for
   "curtosis": float,
   "entropy": float
 }
+```
+
+### Output Format
+
+```json
+{
+  "prediction": "The note is legit"
+}
+```
+## Project Structure
+
+    .
+    ├── BankNote_Authentication.csv          # Dataset file
+    ├── train_model.py                       # Script to train and pickle the model
+    ├── random_forest_banknote_model.pkl     # Saved model file
+    ├── main.py                              # FastAPI application
+    └── README.md                            # Project documentation
